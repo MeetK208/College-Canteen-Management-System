@@ -1,0 +1,275 @@
+body{
+    /* background-image: url(https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/4437/2018/11/2/Buliding%20of%20Gandhinagar%20Institute%20of%20Technology%20Gandhinagar_Campus-View.JPG); */
+	margin:0px 0px 0px 0px ;
+	color:#6a6f8c;
+	/* background:#c8c8c8; */
+    background-repeat: repeat-x;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:550px;
+	position:absolute;
+    top: 180px;
+    left: 400px;
+	background:url() no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(15, 12, 12, 0.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+    
+	width:100%;
+	height:110%;
+	position:relative;
+	padding:170px 70px 50px 70px;
+	background: rgb(26, 24, 24);
+    margin: 0px;
+
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#1161ee;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#1161ee;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+    
+}
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+.img1{
+    position: absolute;
+    margin: 0px 0px;
+    top: 15px;
+    left: 10px;
+    /* border:2px solid rebeccapurple; */
+    width: 100%;
+    filter: invert(100%);
+    
+}
+.img1 img{
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 10px;
+    /* border: 5px solid black; */
+    padding: 0px 0px 00px 0px;
+    width: 400px;
+    height: 90px;
+    
+}
+img{
+    width: 1300px;
+    height: 950px;
+}
+header {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px;
+  padding: 5px 10px 10px 10px;
+  background: #485666;
+  margin: 0px 0px 0px 0px;
+  background-image:url(https://a5y4w8u2.stackpathcdn.com/wp-content/uploads/2017/05/footer.jpg) ;
+  color: white;
+  border: 2px solid black;
+
+
+}
+.nav-are li a:hover{
+	color: red;
+}
+
+  .logo {
+    /* max-width: 65px; */
+    cursor: pointer;
+    height: 90px;
+    width: 120px;
+    /* border: 2px solid black; */
+    filter: invert(100%);
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+.nav-area {
+  list-style: none;
+  /* border: 2px solid black; */
+  margin-right: 30px;
+}
+
+.nav-area li {
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase;
+  /* border: 2px solid black; */
+  margin: 15px 18px 15px 0px ;
+
+}
+
+.nav-area li a {
+  letter-spacing: 2px;
+  /* transition: all .3s ease 0s; */
+  color: rgb(201, 148, 105);
+  color: white;
+  /* padding: 20px 5px 0px 1px; */
+  /* border: 2px solid black; */
+  font-family:Roboto,apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 10px 10px;
+  font-size: 16px;
+  text-decoration: none;
+
+
+}
+.p{
+	border: white;
+  
+	position: absolute;
+	top: 65px;
+	left: 100px;
+	padding: 5px;
+	font-size: 25px;
+	font-family:Roboto,apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .p:hover{
+  
+	color: red;
+  }
+
+.nav-area li a:hover {
+  color: #ff0000;
+}
+
+body{
+  margin: 0px 0px;
+  padding: 0px 0px; 
+}
+.div1{
+  margin: 0px 30px;
+  padding: 10px;
+}
+
+element.style {
+    margin-top: 200px;
+}

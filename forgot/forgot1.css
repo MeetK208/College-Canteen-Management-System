@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+
+/* .profilepress-reset-status {
+  width: 400px;
+  text-align: center;
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: medium none;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.4;
+  padding: 8px 5px;
+  margin: auto;
+}
+
+.memo-reset-success {
+   width: 400px;
+  text-align: center;
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: medium none;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.4;
+  padding: 8px 5px;
+  margin: auto;
+} */
+
+#sc-password {
+  background: #f0f0f0;
+  width: 500px;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 2%;
+  /* transition: opacity 1s;
+  -webkit-transition: opacity 1s; */
+}
+
+#sc-password h1 {
+  background: #3399cc;
+  padding: 25px;
+  font-size: 150%;
+  font-weight: 300;
+  text-align: center;
+  color:white;
+}
+
+div#sc-password .sc-container {
+  background: #f0f0f0;
+  padding: 6% 4%;
+}
+
+div#sc-password input[type="email"],
+div#sc-password input[type="text"],
+div#sc-password input[type="password"] {
+  width: 92%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 4%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 95%;
+  color: #555;
+}
+
+/* div#sc-password input[type="email"], */
+div#sc-password input[type="tel"] {
+  width: 92%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 4%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 95%;
+  color: #555;
+}
+
+div#sc-password input[type="submit"] {
+  width: 100%;
+  background: #3399cc;
+  border: 0;
+  padding: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  color: #fff;
+  cursor: pointer;
+  transition: background .3s;
+  -webkit-transition: background .3s;
+}
+
+div#sc-password input[type="submit"]:hover {
+  background: #000000;
+  color: red;
+}
+.link{
+    text-align: center;
+    /* border: 2px solid black; */
+    margin: 0px;
+}
+.link span{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #3399cc ;
+    margin: 10px 10px;
+    padding: 10px;
+    
+}
+.link span a{
+    color:white ;
+    text-decoration: none;
+    margin: 10px;
+    padding: 16px;
+}
+.a1{
+    position: absolute;
+    top:450px;
+    left: 37%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.a2{
+    position: absolute;
+    top:450px;
+    left: 50%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+span{
+    border: 10px solid red;
+}
+span:hover{
+    background-color: rgb(255, 15, 15);
+    color: black;
+}
+
+.a2:hover{
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+.a1:hover{
+    background-color: black;
+    color: red;
+}

@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Scope One', serif;
+  height: 100%;
+  font-weight: 600;
+  font-size: 21px;
+  background-color: #ccc;
+  margin: 0px 0px;
+}
+
+.container .contactinfo {
+  display: flex;
+  top: 0;
+  height: 100%;
+  border-radius: 35px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  background-color: #333;
+}
+.container .contactinfo h2 {
+  text-align: center;
+  padding-left: 35px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.container .contactinfo .info {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .contactinfo .info li {
+  position: relative;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.container .contactinfo .info li span:nth-child(1) {
+  width: 40px;
+  min-width: 40px;
+}
+.container .contactinfo .info li span:nth-child(1) img {
+  max-width: 100%;
+  filter: invert(83%);
+  opacity: 0.5;
+}
+.container .contactinfo .info li span:nth-child(2) {
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 100;
+  opacity: 0.5;
+}
+.container .contactinfo .info li:hover span:nth-child(1) img, .container .contactinfo .info li:hover span:nth-child(2) {
+  opacity: 1;
+}
+.container .contactusform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 70px 50px;
+  background-color: #fff;
+  top: 0;
+}
+.container .contactusform h2 {
+  margin-top: 35px;
+  color: #882;
+  font-size: 24px;
+  font-weight: 700;
+}
+.container .contactusform .formBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.container .contactusform .formBox .inputBox {
+  position: relative;
+  margin: 0 0 35px 0;
+  width: 100% !important;
+}
+.container .contactusform .formBox .inputBox input, .container .contactusform .formBox .inputBox textarea {
+  width: 100% !important;
+  padding: 5px 0;
+  resize: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+}
+.container .contactusform .formBox .inputBox textarea {
+  min-height: 120px;
+}
+.container .contactusform .formBox .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  transition: 0.3s;
+  pointer-events: none;
+}
+.container .contactusform .formBox .inputBox input:focus ~ span, .container .contactusform .formBox .inputBox textarea:focus ~ span,
+.container .contactusform .formBox .inputBox input:valid ~ span, .container .contactusform .formBox .inputBox textarea:valid ~ span {
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #FF4136;
+}
+.container .contactusform .formBox .inputBox input[type=submit] {
+  font-family: 'Scope One', serif;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 22px;
+  border: none;
+  max-width: 150px;
+  max-height: 150px;
+  padding: 12px 13px 9px 15px;
+}
+.container .contactusform .formBox .inputBox input[type=submit]:hover {
+  background-color: rgb(201, 148, 105);
+}
+.container .contactusform .formBox .w50 {
+  width: 47%;
+}
+.container .contactusform .formBox .w100 {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .container .contactinfo h2 {
+    text-align: center;
+  }
+  .container .contactinfo .info {
+    flex-direction: row;
+  }
+  .container .contactinfo li span:nth-child(2) {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 900px) {
+  section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: #ccc;
+    
+  }
+  section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #DCDCDC;
+  }
+  section .container {
+    position: relative;
+    width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+    margin: 0 20px 0 20px;
+  }
+  section .container .contactinfo {
+    position: absolute;
+    top: 20%;
+    width: 350px;
+    height: calc(100% - 40%);
+    z-index: 1;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
+    align-items: left;
+  }
+  section .container .contactinfo h2 {
+    text-align: left;
+  }
+  section .container .contactinfo .info {
+    flex-direction: column;
+  }
+  section .container .contactinfo li span:nth-child(2) {
+    margin-right: 0;
+  }
+  section .container .contactusform {
+    position: absolute;
+    top: 10%;
+    height: calc(100% - 20%);
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    margin-left: 150px;
+    padding-left: 250px;
+  }
+  section .container .contactusform .formBox {
+    flex-direction: row;
+  }
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px;
+    padding: 0px 0px 0px 0px;
+    background: #485666;
+    margin: 0px 0px 0px 0px;
+    background-image:url(https://a5y4w8u2.stackpathcdn.com/wp-content/uploads/2017/05/footer.jpg) ;
+    color: white;
+    border: 2px solid black;
+
+
+}
+
+.nav-are li a:hover{
+  color: red;
+}
+.p{
+  position: absolute;
+  top: 65px;
+  left: 195px;
+  font-size: 20px;
+  font-family: -Roboto,apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.logo {
+    /* max-width: 65px; */
+    cursor: pointer;
+    height: 90px;
+    width: 120px;
+    /* border: 2px solid black; */
+    filter: invert(100%);
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+.nav-area {
+    list-style: none;
+    /* border: 2px solid black; */
+    margin-right: 30px;
+  }
+  
+  .nav-area li {
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    /* border: 2px solid black; */
+    margin: 15px 18px 15px 0px ;
+
+  }
+  
+  .nav-area li a {
+    letter-spacing: 3px;
+    transition: all .3s ease 0s;
+    color: rgb(201, 148, 105);
+    color: white;
+    /* padding: 20px 5px 0px 1px; */
+    /* border: 2px solid black; */
+    font-family: 'Roboto', serif;
+    padding: 15px 10px;
+    font-size: 16px;
+    text-decoration: none;
+
+
+  }
+
+.nav-area li a:hover {
+    color: #fd0000;
+}
+.p{
+  border: white;
+
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  padding: 5px;
+  font-size: 28px;
+  font-family: -Roboto,apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p:hover{
+  
+  color: red;
+}
+section .container .contactinfo {
+  position: absolute;
+  top: 16%;
+  width: 370px;
+  height: calc(100% - 35%);
+  z-index: 1;
+  box-shadow: 2px 30px 30px rgb(0 0 0 / 30%);
+  align-items: left;
+}
